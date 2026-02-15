@@ -2,8 +2,6 @@
 
 Windows-native desktop app for editing `PATH` in the registry with a modern UI.
 
-This project replaces the original Tkinter script with a Rust app built on `eframe/egui`, using Win32 APIs for elevation and environment-change broadcast.
-
 ## Features
 
 - Edit both User PATH and System PATH
@@ -14,6 +12,7 @@ This project replaces the original Tkinter script with a Rust app built on `efra
 - Save per-section or save both
 - Elevation flow for System PATH writes
 - Broadcasts `WM_SETTINGCHANGE` after save so new processes can see updates
+- Bypasses default Windows PATH editor GUI max length
 
 ## Tech Stack
 
@@ -27,11 +26,8 @@ This project replaces the original Tkinter script with a Rust app built on `efra
 ## Project Layout
 
 - `src/main.rs`: Application logic and UI
-- `scripts/package.ps1`: Build/package automation
+- `scripts/package.ps1`: Build/package automation script
 - `installer/path_editor_native.iss`: Inno Setup installer script
-- `packaging/PORTABLE_README.txt`: Portable package readme
-- `PACKAGING.md`: Quick packaging reference
-- `path_editor.py`: Original Python implementation (legacy reference)
 
 ## Requirements
 
