@@ -40,4 +40,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/rust,windows
+# End of https://www.toptal.com/developers/gitignore/api/rust,windows0
+
+dist/
