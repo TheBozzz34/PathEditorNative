@@ -2,6 +2,8 @@
 
 Windows-native desktop app for editing `PATH` in the registry with a modern UI.
 
+![Path Editor Native Screenshot](images/app.png)
+
 ## Features
 
 - Edit both User PATH and System PATH
