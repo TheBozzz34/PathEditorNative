@@ -1,6 +1,6 @@
 # Path Editor Native
 
-Windows-native desktop app for editing `PATH` in the registry with a modern UI.
+Windows-native desktop app for editing `PATH` in the registry
 
 ![Path Editor Native Screenshot](images/app.png)
 
