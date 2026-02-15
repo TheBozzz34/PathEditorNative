@@ -1,0 +1,14 @@
+﻿[package]
+name = "path_editor_native"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = { version = "0.27.2", default-features = false, features = ["default_fonts", "glow"] }
+rfd = "0.14.1"
+winreg = "0.55"
+windows = { version = "0.58", features = [
+  "Win32_Foundation",
+  "Win32_UI_Shell",
+  "Win32_UI_WindowsAndMessaging"
+] }
